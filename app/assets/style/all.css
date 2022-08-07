@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    font-family: Roboto, 'Noto Sans TC', sans-serif;
+    line-height: 1.5;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    display: block;
+  }
+}
+
+@layer components {
+
+}
+
+@layer utilities {
+  .content-visible {
+    content-visibility: visible;
+  }
+  .filter-none {
+    filter: none;
+  }
+}
