@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>門市據點 | 眼鏡官網</title>
+  <link rel="shortcut icon" href="./assets/images/glasses.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  
+  <nav class="bg-maroon py-4 relative">
+    <div class="container flex justify-between">
+      <a href="index.html">
+        <img src="./assets/images/logo-new_工作區域 1@2x.png" alt="logo" class="w-[80px]">
+      </a>
+      <!-- Mobile menu button-->
+      <button type="button" class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-maroon-dark focus:outline-none" aria-controls="mobile-menu" aria-expanded="false" data-menu-btn>
+        <span class="sr-only">Open main menu</span>
+        <svg class="block h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+      <!-- Mobile menu, show/hide based on menu state. -->
+      <ul class="absolute text-center inset-x-0 top-full bg-maroon transition-all max-h-0 overflow-hidden md:static md:max-h-full md:flex md:items-center" id="mobile-menu">
+        <li>
+          <a href="product-optical.html" class="text-white block px-8 py-1 text-xl md:text-lg hover:bg-maroon-dark hover:rounded" aria-current="page">系列鏡框</a>
+        </li>
+        <li>
+          <a href="stores.html" class="text-white block px-8 py-1 text-xl md:text-lg hover:bg-maroon-dark hover:rounded">門市據點</a>
+        </li>
+        <li>
+          <a href="blog.html" class="text-white block px-8 py-1 text-xl md:text-lg hover:bg-maroon-dark hover:rounded">部落格</a>
+        </li>
+        <li>
+          <a href="faq.html" class="text-white block px-8 py-1 text-xl md:text-lg hover:bg-maroon-dark hover:rounded">常見問題</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container pt-10 pb-6 md:pt-20 xl:pt-24">
+  <h1 class="border-l-8 border-maroon pl-4 text-xl font-bold mb-6 md:text-5xl md:font-bold md:mb-8">
+    門市據點
+  </h1>
+  <div class="flex items-center gap-x-2 md:w-7/12 xl:w-1/3 xl:pr-3">
+    <label class="shrink-0 md:text-xl" for="location">選擇分店</label>
+    <select class="w-full border-gray-200 bg-[url('../images/arrow_drop_down_black_24dp.svg')] focus:ring-maroon-dark focus:ring-offset-0 focus:border-maroon-dark text-gray-500" name="location" id="location">
+      <option value="台北中山旗艦店" selected>台北中山旗艦店</option>
+      <option value="台北綠園店">台北綠園店</option>
+      <option value="台中清水旗艦店">台中清水旗艦店</option>
+      <option value="高雄中正形象店">高雄中正形象店</option>
+      <option value="高雄夢時代店">高雄夢時代店</option>
+    </select>
+  </div>
+</div>
+<main class="container pb-16 md:pb-20 text-black-custom">
+  <div class="xl:flex xl:-mx-3">
+    <div class="mb-6 md:flex md:space-x-6 xl:block xl:w-5/12 xl:px-3 xl:space-x-0 xl:mb-0">
+      <div class="md:w-1/2 xl:w-full">
+        <img class="w-full object-cover h-full" src="./assets/images/week3-4/store-1.png" alt="BJ41600S">
+      </div>
+      
+      <div class="md:w-1/2 xl:w-full">
+        <h2 class="text-xl px-6 py-2 border border-gray-200">
+          台北中山旗艦店 
+        </h2>
+        <ul class="px-6 py-4 text-lg border border-gray-200 ">
+          <li class="flex items-center mb-2">
+            <span class="material-icons-outlined mr-3">
+              call
+            </span>
+            電話：(02)000-1234
+          </li>
+          <li class="flex items-center mb-2">
+            <span class="material-icons-outlined mr-3">
+              schedule
+            </span>
+            營業時間：10:00-21:00
+          </li>
+          <li class="flex items-start">
+            <span class="material-icons-outlined mr-3">
+              location_on
+            </span>
+            地址：台北市中山區南京東路25巷2-1號
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="xl:w-7/12 xl:px-3">
+      <div class="aspect-[4/3] xl:aspect-auto h-full">
+        <iframe class="map w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7228.881356235902!2d121.51140656977539!3d25.05304880000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9365221dba9%3A0x6a5120872666f940!2z5rKQ55SwTm8uMi0x5rau5rau5bel5bug!5e0!3m2!1szh-TW!2stw!4v1659520509486!5m2!1szh-TW!2stw" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+</main>
+
+
+  <footer class="bg-maroon text-white py-6 md:pt-12 md:pb-10">
+    <div class="container">
+      <div class="flex justify-between flex-row-reverse border-b mb-4 pb-6 md:block md:mb-8">
+        <div class="flex justify-between">
+          <ul class="hidden md:flex text-white md:gap-x-6">
+            <li>
+              <a class="block px-3 py-1 rounded hover:bg-maroon-dark" href="index.html">
+                首頁
+              </a>
+            </li>
+            <li>
+              <a class="block px-3 py-1 rounded hover:bg-maroon-dark" href="product-optical.html">
+                系列鏡框
+              </a>
+            </li>
+            <li>
+              <a class="block px-3 py-1 rounded hover:bg-maroon-dark" href="stores.html">
+                門市據點
+              </a>
+            </li>
+            <li>
+              <a class="block px-3 py-1 rounded hover:bg-maroon-dark" href="blog.html">
+                部落格
+              </a>
+            </li>
+            <li>
+              <a class="block px-3 py-1 rounded hover:bg-maroon-dark" href="faq.html">
+                常見問題
+              </a>
+            </li>
+          </ul>
+          <ul class="flex gap-x-4">
+            <li>
+              <a href="#">
+                <img class="md:w-10 lg:w-12 hover:opacity-50" src="./assets/images/ic_social_fb.svg" alt="facebook">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="md:w-10 lg:w-12 hover:opacity-50" src="./assets/images/ic_social_ig.svg" alt="instagram">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="md:w-10 lg:w-12 hover:opacity-50" src="./assets/images/ic_social_line.svg" alt="line">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <ul class="md:text-4xl md:leading-normal md:inline-block">
+          <li class="mb-3">
+            <a href="tel:+0800-000-000" class="flex align-center hover:opacity-50">
+              <span class="material-icons mr-2 md:text-4xl  md:leading-normal">
+                phone
+              </span>
+              0800-000-000
+            </a>
+          </li>
+          <li>
+            <a href="mailto:glasses@business.com" class="flex align-center hover:opacity-50">
+              <span class="material-icons mr-2 md:text-4xl  md:leading-normal">
+                mail_outline
+              </span>
+              glasses@business.com
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="md:flex md:justify-between">
+        <small class="block text-base mb-2">Copyright © 2022 Glasses.All rights reserved.</small>
+        <ul class="md:flex md:gap-x-6">
+          <li>
+            <a class="text-sm hover:opacity-50" href="#">
+              隱私權政策
+            </a>
+          </li>
+          <li>
+            <a class="text-sm hover:opacity-50" href="#">
+              服務條款
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
